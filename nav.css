@@ -1,0 +1,199 @@
+
+#topnav{
+    width: 100%;
+    height: 20px;
+    background-color:F3E5F5 ;
+    
+}
+   body{ margin: 0px;
+    padding: 0px;
+    background-color:rgb(247, 243, 243);
+   }
+   #midnav{
+    width: 100%;
+    height: 60px;
+ 
+    background-color: black;
+    display: flex;
+   }
+   .logo{
+    width: 10%;
+    
+    margin-left: 2%;
+    
+   }
+   .logo>img{
+    height: 70%;
+    width: 100%;
+    border: solid rebeccapurple px;
+    margin-top: 7%;
+
+
+   }
+   #midnav li a{
+    text-decoration: none;
+    color:white;
+    margin:5px 15px;
+    
+   }
+   #midnav li{
+    float: left;
+    list-style: none;  }
+    
+    #ser{
+    border: solid black 1px;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    inset-block: f004;
+    }
+    #ser input{
+border-radius: 20px;
+padding: 7% 170%;
+border: 1PX solid none;
+    }
+    #nav3{
+        width: 100%;
+       height: 60px;
+        background-color:rgb(66, 64, 64);
+        margin-top: 0%;
+        border: solid black 1px;
+        
+    }
+    #nav3 li{
+        float: left;
+    list-style: none;
+    margin: 5px 20px;
+    }
+    #nav3 li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    }
+    #nav3 li a:hover{
+    background-color: rgb(102, 88, 88);
+}
+#topnav img{
+    width: 100%;
+    height: 20px;
+}
+#topnav li{
+    float:right;
+    list-style: none;
+    margin: 0.5px 20px;
+
+}
+ #topnav li a{
+   
+    text-decoration: none;
+    color:gray;
+}
+#poster1 {
+    display: flex;
+    border: red solid px;
+    width: 100%;
+    height: 50px;
+    
+}
+.one{
+    background-color:rgb(138, 224, 224);
+width: 50%;
+text-align: center;
+}
+.two{
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    
+}.two h1{
+    color: white;
+    font-size: medium;
+    margin-top: 18px;
+}
+.one h1{
+    font-size: medium;
+    margin-top: 18px;
+}
+#poster2{
+    background-color:rgb(138, 224, 224);
+    border: solid 1px rgb(62, 238, 238);
+    height: 100px;
+    text-align: center;
+}
+#poster2 h1{
+    color: black;
+    
+    font-style: oblique;
+}
+#poster2 p{
+    font-size: small;
+}
+#poster3{
+    
+    width: 90%;
+    border: rgb(8, 6, 6) solid px;
+    margin-left: 5%;
+    margin-top:4% ;
+}
+#poster3 video{
+    width: 100%;
+    height: 100%;
+    
+
+}
+#poster4{
+    width: 90%;
+    border: rgb(8, 6, 6) solid px;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 4%;
+}
+#poster4 div{
+border: red solid px;
+width: 23%;
+margin-right: 2%;
+text-align: center;
+}
+#poster4 div img{
+    width: 100%;
+    
+}
+#poster4 div h1{
+    font-size: medium;
+}
+#c{
+border: red solid px;
+display: flex;
+width: 73%;
+margin-left: 10%;
+
+}
+.p{
+    border: solid royalblue px;
+    width: 50%;
+    text-align: center;
+}
+.f{
+    border: solid rgb(2, 8, 27) px;
+    width: 50%;
+    margin-left: 5%;
+    text-align: center;
+}
+.f img{
+    width: 100%;
+}
+.p img{
+    width: 100%;
+}
+.p button{
+    padding: 4% 8%;
+    border: solid black 3px;
+    font-style: oblique;
+    font-size: larger;
+}
+.f button{
+    padding: 4% 8%;
+    border: solid black 3px;
+    color: black;
+    font-size: larger;
+    font-style: oblique;
+}
