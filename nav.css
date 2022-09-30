@@ -7,7 +7,7 @@
 }
    body{ margin: 0px;
     padding: 0px;
-    background-color:rgb(247, 243, 243);
+    background-color:white;
    }
    #midnav{
     width: 100%;
@@ -48,7 +48,7 @@
     }
     #ser input{
 border-radius: 20px;
-padding: 7% 170%;
+
 border: 1PX solid none;
     }
     #nav3{
@@ -141,17 +141,32 @@ text-align: center;
 
 }
 #poster4{
-    width: 90%;
-    border: rgb(8, 6, 6) solid px;
-    margin-left: 5%;
-    display: flex;
-    margin-top: 4%;
+    border: red solid px;
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+    text-align: center;
+    grid:wrap;
+    
+}
+@media(max-width:768px){
+    #poster4{
+        grid-template-columns: repeat(2,1fr);
+        margin: 7%;
+    }
+}
+@media(max-width:500px){
+    #poster4{
+        grid-template-columns: repeat(2,1fr);
+        margin: 7%;
+    }
 }
 #poster4 div{
 border: red solid px;
-width: 23%;
-margin-right: 2%;
-text-align: center;
+grid:wrap;
+
+
 }
 #poster4 div img{
     width: 100%;
@@ -160,40 +175,93 @@ text-align: center;
 #poster4 div h1{
     font-size: medium;
 }
+@media(max-width:768px){
+    #c{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media(max-width:500px){
+    #c{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}
 #c{
-border: red solid px;
-display: flex;
-width: 73%;
-margin-left: 10%;
+    border: red solid px;
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1%;
+    text-align: center;
+    grid:wrap;
 
 }
 .p{
     border: solid royalblue px;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 .f{
     border: solid rgb(2, 8, 27) px;
-    width: 50%;
-    margin-left: 5%;
+    width: 100%;
+    
     text-align: center;
 }
 .f img{
-    width: 100%;
+    width: 100%; 
 }
 .p img{
     width: 100%;
 }
 .p button{
     padding: 4% 8%;
-    border: solid black 3px;
-    font-style: oblique;
-    font-size: larger;
+    border: solid black 2px;
+    font-style: normal;
+    font-size: small;
 }
 .f button{
     padding: 4% 8%;
-    border: solid black 3px;
+    border: solid black 2px;
     color: black;
-    font-size: larger;
-    font-style: oblique;
+    font-size:small;
+    font-style: normal;
+}
+.f button:hover{
+    background-color:black;
+    color:white;
+}
+.p button:hover{
+    background-color:black;
+    color:white;
+}
+#text{
+    width: 100%;
+    height: 50px;
+    border: red solid px;
+    text-align: center;
+    margin-top: 4%;
+    
+}
+#text h1{
+    margin: auto;
+    margin-right: 85px;
+}
+.poster6{
+    border: greenyellow solid px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+   
+    
+    margin-top: 2%;
+   
+}
+.poster6>div{
+    border: rgb(14, 219, 107) solid px;
+    
+}
+.poster6 div img{
+    width: 100%;
+}
+.poster6 div>img:hover{
+    background-color:whitesmoke;
 }
