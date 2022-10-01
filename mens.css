@@ -1,10 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-body{
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-
-}
 #topnav{
     width: 100%;
     height: 20px;
@@ -38,26 +32,24 @@ body{
    }
    #midnav li a{
     text-decoration: none;
-    color:yellow;
+    color:white;
     margin:5px 15px;
     
    }
    #midnav li{
-    
+    float: left;
     list-style: none;  }
     
     #ser{
-    border: solid red 1px;
-    float: center;
+    border: solid black 1px;
+    margin-top: 0.5%;
+    margin-left: 5%;
     inset-block: f004;
-    margin-left: 10%;
-    
     }
     #ser input{
 border-radius: 20px;
 
 border: 1PX solid none;
-padding:5% 85%;
     }
     #nav3{
         width: 100%;
@@ -100,7 +92,6 @@ padding:5% 85%;
     border: red solid px;
     width: 100%;
     height: 50px;
-    margin-top: 0%;
     
 }
 .one{
@@ -127,7 +118,6 @@ text-align: center;
     border: solid 1px rgb(62, 238, 238);
     height: 100px;
     text-align: center;
-
 }
 #poster2 h1{
     color: black;
@@ -274,93 +264,4 @@ grid:wrap;
 }
 .poster6 div>img:hover{
     background-color:whitesmoke;
-}
-#bottom1{
-    width: 100%;
-    
-    border: red solid 2px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-}
-.sol{
-    border: greenyellow 2px solid;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-;
-    display:flex;
-    float:end;
-}
-.pay{
-    border: greenyellow 2px solid;
-    height: 100%;
-  
-}
-.sol div{
-    border: red solid 2px;
-width: 20%;
-}
-.sol div img{
-    width: 100%;
-}
-.footer{
-    background-color: rgb(221, 216, 216);
-}
-.cont{
-    max-width: 1220px;
- 
-    margin: auto;
-}
-.ul li a{
-    list-style: none;
-    color: gray;
-    margin-top: 15%;
-}.ul{
-    list-style: none;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.footer-col{
-    width: 25%;
-    
-}
-.footer-col h4{
-    font-size: 18px;
-    color:black;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-    font-weight: 400;
-    
-
-}
-.footer-col h4::before{
-content: "";
-position: absolute;
-left: 0;bottom: 10px;
-background-color: rgb(10, 10, 10);
-height:4px;
-box-sizing: border-box;
-width: 50px;
-
-}
-.footer-col h4 li:not(:last-child){
-    margin-bottom: 0px;
-
-}
-.footer-col h4 a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: gray;
-    display: block;
-}
-.footer-col h4{
-    margin-left: 12%;
-}
-.ul li{
-    margin-top: 5%;
-    font-size: 12px;
 }
